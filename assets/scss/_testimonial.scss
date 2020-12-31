@@ -1,0 +1,76 @@
+/*===========================
+    06.testimonial css 
+===========================*/
+
+.testimonial-area {
+
+    .testimonial-active {
+
+        .single-testimonial {
+            margin-bottom: 90px;
+
+            .testimonial-img {
+                width: 173px;
+                height: 173px;
+                border-radius: 50%;
+                background: $theme-color;
+                overflow: hidden;
+                margin: 45px auto;
+
+                img {
+                    width: 100%;
+                    border-radius: 50%;
+                }
+            }
+
+            .testimonial-content {
+
+                p {
+                    font-size: 36px;
+                    line-height: 42px;
+                    text-align: center;
+                    color: $white;
+
+                    @media #{$md} {
+                        font-size: 24px;
+                        line-height: 35px;
+                    }
+                    @media #{$xs} {
+                        font-size: 16px;
+                        line-height: 26px;
+                    }
+                    @media #{$sm} {
+                        font-size: 18px;
+                        line-height: 30px;
+                    }
+                }
+            }
+        }
+
+        .slick-dots {
+            position: absolute;
+            left: 0;
+            right: 0;
+            margin: auto;
+            bottom: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            li {
+
+                button {
+                    text-indent: -9999px;
+                    border: 0;
+                    cursor: pointer;
+                    padding: 0;
+                    background: $white;
+                    width: 12px;
+                    height: 12px;
+                    border-radius: 50%;
+                    margin: 0 5px;
+                }
+            }
+        }
+    }
+}

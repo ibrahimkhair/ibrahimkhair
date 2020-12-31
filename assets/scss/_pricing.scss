@@ -1,0 +1,40 @@
+/*===========================
+    07.pricing css 
+===========================*/
+
+.pricing-area {
+
+    .pricing-box {
+        text-align: center;
+        padding: 65px 30px 40px;
+        background: $bg-color-2;
+        border-radius: 10px;
+        margin-bottom: 30px;
+
+        h3 {
+            font-weight: bold;
+            font-size: 36px;
+            line-height: 42px;
+            color: $white;
+            margin-bottom: 100px;
+        }
+
+        ul {
+            margin-bottom: 80px;
+
+            li {
+                p {
+                    font-weight: bold;
+                    font-size: 24px;
+                    line-height: 34px;
+                    color: $white;
+                    margin-bottom: 15px;
+                }
+            }
+        }
+
+        a {
+
+        }
+    }
+}

@@ -1,0 +1,46 @@
+/*===========================
+    08.footer css 
+===========================*/
+
+.footer-area {
+
+    .footer-logo {
+        margin-bottom: 85px;
+    }
+
+    .footer-links {
+        margin-bottom: 30px;
+        
+        ul {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+
+            li {
+
+                a {
+                    font-size: 20px;
+                    color: $white;
+                    display: block;
+                    margin: 0 20px;
+                }
+            }
+        }
+    }
+
+    .copyright {
+        text-align: center;
+
+        p {
+            font-weight: bold;
+            font-size: 18px;
+            line-height: 21px;
+            color: $white;
+
+            a {
+                color: $white;
+            }
+        }
+    }
+}

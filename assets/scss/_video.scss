@@ -1,0 +1,28 @@
+/*===========================
+    04.video css 
+===========================*/
+
+.video-area {
+
+    .video-box {
+        background: $bg-color-2;
+        border-radius: 10px;
+        margin-bottom: 30px;
+        overflow: hidden;
+
+        &#main-video {
+            margin-bottom: 50px;
+
+            iframe {
+                height: 550px;
+
+                @media #{$md} {
+                    height: 450px;
+                }
+                @media #{$xs} {
+                    height: 350px;
+                }
+            }
+        }
+    }
+}
